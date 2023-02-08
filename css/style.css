@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Global style  start*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/* Global style end */
+
+/* header start */
+.header{
+    padding-top: 37px;
+    padding-bottom: 36px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    color:#192252;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #192252;
+}
+
+.header-button{
+    padding: 14px 16px;
+    background-color:#0E1734;
+    color: #fff;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 4px;
+}
+
+.header-humburger{
+    display: none;
+}
+/* header end */
+
+/* hero start */
+
+.hero{
+     padding-top: 80px;
+     padding-bottom: 96px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 587px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color:#192252;
+    margin-bottom: 24px;
+}
+
+.hero-text{
+    max-width: 485px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#848FAC;
+    margin-bottom: 32px;
+}
+
+.hero-button{
+    display: inline-block;
+    background-color: #0E1734;
+    border: 1px solid  #0E1734;
+    padding: 16px 32px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero-img{
+    margin-right: -56px;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+/* hero end */
+
+/* hotel */
+.hotel{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hotel-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotel-image{
+    width: 384px;
+    height: 576px;
+}
+.hotel-img{
+    width: 100%;
+}
+
+.hotel-title{
+    max-width: 690px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color:#192252;
+    margin-bottom: 24px;
+}
+
+.hotel-text{
+    max-width: 584px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC ;
+    margin-bottom: 16px;
+}
+
+.hotel-text2{
+    max-width: 584px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#848FAC;
+    margin-bottom: 32px;
+}
+
+.hotel-button{
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: #0E1734;
+    color: #ffff;
+    border-radius: 4px;
+}
+/* hotel  end */
+.activity {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.activity-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-card :nth-child(1){
+    margin-bottom: 32px;
+}
+
+.activity-title {
+    max-width: 302px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color:#192252;
+    margin-bottom: 24px;
+}
+
+.activity-title2{
+    max-width: 384px;
+}
+.activity-text {
+    max-width: 584px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#848FAC;
+}
+
+
+
+/* houses start */
+.house {
+    padding: 80px 0;
+}
+
+
+
+.houses-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+.house-title {
+    max-width: 446px;
+    font-family:' Montserrat'sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color:#192252;
+    margin-bottom: 24px;
+}
+.houses-text{
+    max-width: 584px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.houses-button {
+    padding: 16px 32px;
+    background-color: #0E1734;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.houses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.houses-img {
+    width: 384px;
+    height: 489px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+}
+.houses-card__title {
+    max-width: 158px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000;
+    margin-bottom: 16px;
+}
+.houses-grid__text {
+    max-width: 384px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
+.houses-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #424F7B;
+}
+/* houses end */
+
+/* room start */
+.room {
+    padding-top: 80px;
+    padding-bottom: 128px;
+}
+
+.room-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#424F7B;
+    margin-bottom: 12px;
+}
+.room-title {
+    max-width: 407px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.room-text2 {
+    max-width: 385px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
+.room-flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.room-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #0E1734;
+    color: #fff;
+    border-radius: 4px;
+}
+.room-button3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color:  #0E1734;
+}
+
+.room-right__card{
+    padding: 32px 36px;
+    border-radius: 4px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07));
+    margin-bottom: 44px;
+}
+
+.room-right__text {
+    /* max-width: 339px; */
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #424F7B;
+    display: flex;
+    align-items: center;
+    gap: 137px;
+}
+
+
+.room-right__icon {
+    padding:8px;
+    border-radius: 50%;
+    background-color:  #FFECE2;
+}
+
+.svgg{
+    display: block;
+}
+/* room end */
+
+/*customer start  */
+.customer {
+    padding-top: 80px;
+    padding-bottom: 116px;
+}
+
+
+.customer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customer-title {
+    font-family:' Montserrat' sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #192252;
+    margin-bottom: 62px;
+}
+.customer-img {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 44px;
+}
+.customer-text {
+    max-width: 793px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color:#848FAC;
+    margin-bottom: 40px;
+}
+.customer-logo {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #192252;
+}
+/* customer end */
+
+/* footer start */
+.footer{
+    background:  #0B265A;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footer-title{
+    font-family:' Montserrat' sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.footer-text{
+    max-width: 186px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D9DBDE;
+    margin-bottom: 36px;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-right{
+    display: flex;
+    gap:105px;
+}
+
+.footer-card__text1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.footer-item{
+    margin-bottom: 24px;
+}
+.footer-link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #D9DBDE;
+    
+}
+/* footer end */
+
+
+
+/* @media start */
+
+@media only screen and (max-width:768px){
+
+    .hero-container{
+        display: flex;
+        align-items: flex-start;
+    }
+    .hero-title{
+        font-size: 20px;
+        width: 100%;
+    }
+    .houses-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-text{
+        font-size:18px;
+        width: 100%;
+    }
+
+    .hero-button{
+        padding: 10px 24px;
+        margin-bottom: 30px;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+    .hotel{
+        padding-top: 0;
+    }
+
+    .hotel-container{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .hotel-title{
+        font-size: 34px;
+    }
+
+    .hotel-text{
+        font-size: 16px;
+    }
+    .hotel-text2{
+        font-size: 16px;
+    }
+
+    .hotel-button{
+        padding: 14px 28px;
+    }
+    .hotel{
+        padding-bottom: 0px;
+    }
+
+    .activity{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .activity-card{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .houses-img{
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .houses-grid__text{
+        max-width: 100%;
+    }
+
+    .grid-card{
+        border-bottom: 2px solid black;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .room-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .room-title{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .room-text2{
+        max-width: 100%;
+    }
+    .room-left{
+        margin-bottom: 50px;
+    }
+    .room-right__card{
+        width: 100%;
+    }
+    .house{
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:560px){
+    .header-humburger{
+        display: block;
+        font-size: 32px;
+    }
+    .nav{
+        display: none;
+    }
+    .header-button{
+        display: none;
+    }
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hotel-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-imgage{
+        width: 100%;
+    }
+
+    .hotel-imgage{
+        width: 100vw;
+    }
+
+    .hotel-img{
+        width: 100%;
+    }
+
+    .activity-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-left{
+        margin-bottom: 40px;
+    }
+
+    .footer-right{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
